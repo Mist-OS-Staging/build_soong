@@ -145,9 +145,16 @@ func dumpMakeVars(ctx Context, config Config, goals, vars []string, write_soong_
 
 // Variables to print out in the top banner
 var BannerVars = []string{
-	"PLATFORM_VERSION_CODENAME",
-	"PLATFORM_VERSION",
-	"MIST_BUILD_INFO",
+	"LINEAGE_DISPLAY_VERSION",
+	"MIST_BUILDTYPE",
+	"MIST_CODENAME",
+	"MIST_FLAVOR",
+	"MIST_MAINTAINER",
+	"MIST_PACKAGE_TYPE",
+	"MIST_VERSION",
+	"MIST_BUILD_DATE",
+	"LINEAGE_BUILD",
+	"PRODUCT_INCLUDE_TAGS",
 	"MISTOS_MAINTAINER",
 	"PRODUCT_SOURCE_ROOT_DIRS",
 	"TARGET_DEVICE",
