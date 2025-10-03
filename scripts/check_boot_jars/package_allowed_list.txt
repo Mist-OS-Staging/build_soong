@@ -270,6 +270,9 @@ com\.google\.wear\..*
 lineageos\.platform
 org\.lineageos\.platform\.internal
 
+# MistOS adds
+org.mist.*
+
 # NT adds
 com\.nothing
 com\.nothing\..*
